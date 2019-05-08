@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter "Samaccountname -like'*-a*'" | out-gridview #| Get-ADPrincipalGroupMembership | Select name | export-csv "C:\Users\PTA40889-a\Desktop\-a group access.csv"
